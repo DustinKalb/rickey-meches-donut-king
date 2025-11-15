@@ -6,7 +6,7 @@
 }
 
 .slideShow {
-    background-image: url('/donutBox.png');
+    background-image: url('/filledDonuts.jpg');
     background-size: cover;
 }
 
@@ -16,4 +16,9 @@
     align-items: center;
     justify-content: center;
     height: 650px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
 }
