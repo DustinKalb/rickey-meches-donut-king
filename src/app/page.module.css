@@ -3,10 +3,16 @@
 }
 
 .catchPhrase {
+    color: white;
 }
 
 .slideShow {
-    background-image: url('/filledDonuts.jpg');
+    background-image:
+     linear-gradient(
+        rgba(0, 0, 0, 0.70),
+        rgba(0, 0, 0, 0.30)
+     ),
+     url('/filledDonuts.jpg');
     background-size: cover;
 }
 
@@ -15,7 +21,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 650px;
+    height: 525;
+    padding: 0 0 206 0;
 }
 
 .logo {

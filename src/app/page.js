@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <main>
       <div className={styles.slideShow}>
-        <Image className={styles.logo} src="/logo.png" height={150} width={150} quality={100} />
+        <br />
+        <Image className={styles.logo} src="/logo.png" height={140} width={140} quality={100} />
         <NavBar />
         <div className={styles.titleBox}>
           {/*<h1 className={styles.storeName}>Rickey Meche's Donut King</h1>*/}

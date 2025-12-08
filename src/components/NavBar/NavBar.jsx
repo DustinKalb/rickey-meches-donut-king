@@ -1,10 +1,10 @@
 "use client";
 import "./NavBar.css";
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" bg="transparent">
+    <Navbar expand="lg" bg="transparent" className="navbar-transparent">
       <Container>
         <Nav className="mx-auto">
             <Nav.Link href="#home">Home</Nav.Link>
