@@ -5,15 +5,16 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className={styles.slideShow}>
-        <br />
-        <Image className={styles.logo} src="/logo.png" height={140} width={140} quality={100} />
+      <div className={styles.background}>
         <NavBar />
         <div className={styles.titleBox}>
           {/*<h1 className={styles.storeName}>Rickey Meche's Donut King</h1>*/}
-          <Image src="/logowords.png" height={243.77} width={500} quality={100} />
+          <Image className={styles.storeName} src="/logofull.png" height={243.77} width={550} quality={100} />
           <div className={styles.catchPhrase}>Making Your Day a Little Sweeter</div>
         </div>
+      </div>
+      <div className={styles.content}>
+        <h1 className={styles.titleOne}>ABOUT US</h1>
       </div>
     </main>
   );

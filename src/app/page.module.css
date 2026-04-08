@@ -4,9 +4,11 @@
 
 .catchPhrase {
     color: white;
+    text-align: center;
 }
 
-.slideShow {
+.background {
+    min-height: 90vh;
     background-image:
      linear-gradient(
         rgba(0, 0, 0, 0.70),
@@ -21,11 +23,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 525;
-    padding: 0 0 206 0;
 }
 
 .logo {
     display: block;
     margin: 0 auto;
+    filter: drop-shadow( 0 4px 8px rgba(0, 0, 0, 0.6));
+}
+
+.storeName {
+    display: block;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
+}
+
+.titleOne {
+    text-align: center;
 }
