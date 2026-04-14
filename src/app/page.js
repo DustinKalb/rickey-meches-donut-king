@@ -14,7 +14,15 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.content}>
-        <h1 className={styles.titleOne}>ABOUT US</h1>
+        <div className={styles.aboutCard}>
+          <div className={styles.imageWrapper}>
+            <Image className={styles.slideShow} src="/rickster.jpg" fill quality={100} />
+          </div>
+          <div>ABOUT US</div>
+        </div>
+        <div className={styles.hoursCard}>HOURS & LOCATION</div>
+        <div className={styles.ordersCard}>ORDER</div>
+        <div className={styles.contactCard}>CONTACT</div>
       </div>
     </main>
   );

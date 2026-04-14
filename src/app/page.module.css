@@ -8,7 +8,9 @@
 }
 
 .background {
-    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
     background-image:
      linear-gradient(
         rgba(0, 0, 0, 0.70),
@@ -20,9 +22,11 @@
 
 .titleBox {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transform: translateY(-40px);
 }
 
 .logo {
@@ -36,6 +40,46 @@
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
 }
 
-.titleOne {
+.content {
+    background-color: red;
+    padding: 75px 300px 0 300px;
+}
+
+.aboutCard {
+    display: flex;
     text-align: center;
+    background-color: green;
+    margin-bottom: 20px;
+    height: 500px;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 500px;
+    height: 100%;
+}
+
+.slideShow {
+    background-color: black;
+    object-fit: cover;
+}
+
+.hoursCard {
+    text-align: center;
+    background-color: blue;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.ordersCard {
+    text-align: center;
+    background-color: yellow;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.contactCard {
+    text-align: center;
+    background-color: purple;
+    height: 200px;
 }
