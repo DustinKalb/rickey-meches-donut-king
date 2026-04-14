@@ -18,7 +18,7 @@ export default function Home() {
           <div className={styles.imageWrapper}>
             <Image className={styles.slideShow} src="/rickster.jpg" fill quality={100} />
           </div>
-          <div>ABOUT US</div>
+          <div className={styles.aboutText}>ABOUT US</div>
         </div>
         <div className={styles.hoursCard}>HOURS & LOCATION</div>
         <div className={styles.ordersCard}>ORDER</div>
