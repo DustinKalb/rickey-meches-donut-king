@@ -23,6 +23,7 @@ export default function Home() {
         <div className={styles.hoursCard}>HOURS & LOCATION</div>
         <div className={styles.ordersCard}>ORDER</div>
         <div className={styles.contactCard}>CONTACT</div>
+        <div className={styles.footer}>FOOTER</div>
       </div>
     </main>
   );

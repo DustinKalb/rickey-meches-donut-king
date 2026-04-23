@@ -41,18 +41,16 @@
 }
 
 .content {
-    background-color: white;
-    padding: 75px 300px 0 300px;
+    background-color: lime;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .aboutCard {
     display: flex;
     text-align: center;
     background-color: white;
-    margin-bottom: 20px;
     height: 600px;
-    border-radius: 12px;
-    filter: drop-shadow(0 4px 25px rgba(0, 0, 0, 0.2));
 }
 
 .imageWrapper {
@@ -79,20 +77,23 @@
 
 .hoursCard {
     text-align: center;
-    background-color: blue;
-    height: 200px;
-    margin-bottom: 20px;
+    background-color: #FFE1E1;
+    height: 600px;
 }
 
 .ordersCard {
     text-align: center;
-    background-color: yellow;
-    height: 200px;
-    margin-bottom: 20px;
+    background-color: #E6A5A5;
+    height: 600px;
 }
 
 .contactCard {
     text-align: center;
-    background-color: purple;
-    height: 200px;
+    background-color: #CC6E6E;
+    height: 600px;
+}
+
+.footer {
+    background-color: #4F1E1E;
+    height: 50px;
 }
