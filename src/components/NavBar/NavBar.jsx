@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" bg="white" className="navbar-transparent">
+    <Navbar expand="lg" bg="transparent" className="navbar-transparent">
       <Container>
         <Nav className="mx-auto">
             <Nav.Link href="#about">About</Nav.Link>

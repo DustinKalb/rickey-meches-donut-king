@@ -42,15 +42,19 @@
 
 .content {
     background-color: lime;
-    max-width: 1600px;
     margin: 0 auto;
+}
+
+.aboutBackground {
+    background-color: white;
 }
 
 .aboutCard {
     display: flex;
     text-align: center;
-    background-color: white;
     height: 600px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .imageWrapper {

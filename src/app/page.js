@@ -14,15 +14,23 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.content}>
-        <div className={styles.aboutCard}>
-          <div className={styles.imageWrapper}>
-            <Image className={styles.slideShow} src="/rickster.jpg" fill quality={100} />
+        <div className={styles.aboutBackground}>
+          <div className={styles.aboutCard}>
+            <div className={styles.imageWrapper}>
+              <Image className={styles.slideShow} src="/rickster.jpg" fill quality={100} />
+            </div>
+            <div className={styles.aboutText}>ABOUT US</div>
           </div>
-          <div className={styles.aboutText}>ABOUT US</div>
         </div>
-        <div className={styles.hoursCard}>HOURS & LOCATION</div>
-        <div className={styles.ordersCard}>ORDER</div>
-        <div className={styles.contactCard}>CONTACT</div>
+        <div className={styles.hoursBackground}>
+          <div className={styles.hoursCard}>HOURS & LOCATION</div>
+        </div>
+        <div className={styles.ordersBackground}>
+          <div className={styles.ordersCard}>ORDER</div>
+        </div>
+        <div className={styles.contactBackground}>
+          <div className={styles.contactCard}>CONTACT</div>
+        </div>
         <div className={styles.footer}>FOOTER</div>
       </div>
     </main>
