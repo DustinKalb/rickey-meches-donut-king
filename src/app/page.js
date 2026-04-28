@@ -19,7 +19,10 @@ export default function Home() {
             <div className={styles.imageWrapper}>
               <Image className={styles.slideShow} src="/rickster.jpg" fill quality={100} />
             </div>
-            <div className={styles.aboutText}>ABOUT US</div>
+            <div className={styles.aboutText}>
+              <div>About Us</div>
+              <div>My name is Dustin and I work at Meche's Donut King. I get there super early and make a ton of product then I flip donuts for like 12 whole hours. It's honest work but the managers suck lol.</div>
+            </div>
           </div>
         </div>
         <div className={styles.hoursBackground}>
