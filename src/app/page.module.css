@@ -87,11 +87,11 @@
     border-radius: 10px;
 }
 
-.hoursCard {
+.socialsCard {
     padding-top: 240px;
     text-align: center;
     background-color: #FFE1E1;
-    height: 600px;
+    height: 325px;
 }
 
 .ordersCard {
