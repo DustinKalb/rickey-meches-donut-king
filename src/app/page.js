@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import NavBar from "../components/NavBar/NavBar.jsx";
+import HoursOfOperation from "../components/HoursOfOperation/HoursOfOperation.jsx";
 import Image from "next/image";
 
 export default function Home() {
@@ -31,7 +32,10 @@ export default function Home() {
             <div>O O</div>
           </div>
           <div className={styles.hoursCard}>
-            <div>Business Hours</div>
+            <div className={styles.hoursImageWrapper}>
+              <Image className={styles.donut} src="/chocnglaze2.png" width={700} height={700} quality={100} />
+            </div>
+            <HoursOfOperation />
           </div>
         </div>
         <iframe
