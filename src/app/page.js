@@ -2,6 +2,12 @@ import styles from "./page.module.css";
 import NavBar from "../components/NavBar/NavBar.jsx";
 import HoursOfOperation from "../components/HoursOfOperation/HoursOfOperation.jsx";
 import Image from "next/image";
+import { Pacifico } from "next/font/google";
+
+const pacifico = Pacifico({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function Home() {
   return (
@@ -11,7 +17,8 @@ export default function Home() {
         <div className={styles.titleBox}>
           {/*<h1 className={styles.storeName}>Rickey Meche's Donut King</h1>*/}
           <Image className={styles.storeName} src="/logofull.png" height={243.77} width={550} quality={100} />
-          <div className={styles.catchPhrase}>Making Your Day a Little Sweeter</div>
+          <br />
+          <div className={`${styles.catchPhrase} ${pacifico.className}`}>Making Your Day a Little Sweeter</div>
         </div>
       </div>
       <div className={styles.content}>
@@ -28,7 +35,7 @@ export default function Home() {
         </div>
         <div className={styles.hoursBackground}>
           <div className={styles.socialsCard}>
-            <div>Check out our social medias!</div>
+            <div className={pacifico.className}>Check out our social medias!</div>
             <div>O O</div>
           </div>
           <div className={styles.hoursCard}>

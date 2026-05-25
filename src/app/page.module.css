@@ -5,6 +5,8 @@
 .catchPhrase {
     color: white;
     text-align: center;
+    font-size: 32px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6))
 }
 
 .background {
@@ -92,7 +94,8 @@
     font-size: 24px;
     padding-top: 240px;
     text-align: center;
-    background-color: #720000;
+    background-image: url('/mechesbackground.png');
+    background-size: cover;
     height: 550px;
 }
 
