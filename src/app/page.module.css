@@ -48,8 +48,9 @@
 }
 
 .aboutBackground {
+    display: flex;
     background-color: white;
-    height: 600px;
+    height: 610px;
     padding-top: 50px;
 }
 
@@ -85,8 +86,9 @@
     color: black;
     text-align: center;
     background-color: white;
-    margin-left: 50px;
     border-radius: 10px;
+    max-width: 600px;
+    margin-right: 30px;
 }
 
 .socialsCard {
