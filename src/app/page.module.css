@@ -1,136 +1,140 @@
 .storeName {
-    color: red;
+  color: red;
 }
 
 .catchPhrase {
-    color: white;
-    text-align: center;
-    font-size: 32px;
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6))
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
 }
 
 .background {
-    display: flex;
-    flex-direction: column;
-    min-height: 80vh;
-    background-image:
-     linear-gradient(
-        rgba(0, 0, 0, 0.70),
-        rgba(0, 0, 0, 0.30)
-     ),
-     url('/filledDonuts.jpg');
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url("/filledDonuts.jpg");
+  background-size: cover;
 }
 
 .titleBox {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(-40px);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-40px);
 }
 
 .logo {
-    display: block;
-    margin: 0 auto;
-    filter: drop-shadow( 0 4px 8px rgba(0, 0, 0, 0.6));
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
 }
 
 .storeName {
-    display: block;
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
+  display: block;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
 }
 
 .content {
-    background-color: lime;
-    margin: 0 auto;
+  background-color: lime;
+  margin: 0 auto;
 }
 
 .aboutBackground {
-    display: flex;
-    background-color: white;
-    height: 610px;
-    padding-top: 50px;
+  display: flex;
+  background-color: white;
+  height: 610px;
+  padding-top: 50px;
 }
 
 .aboutCard {
-    display: flex;
-    text-align: center;
-    height: 600px;
-    max-width: 1600px;
-    margin: 0 auto;
-    z-index: 2;
+  display: flex;
+  text-align: center;
+  height: 600px;
+  max-width: 1600px;
+  margin: 0 auto;
+  z-index: 2;
 }
 
 .imageWrapper {
-    position: relative;
-    width: 600px;
-    height: 100%;
-    border-radius: 10px;
-    border: 10px solid white;
+  position: relative;
+  width: 600px;
+  height: 100%;
+  border-radius: 10px;
+  border: 10px solid white;
 }
 
 .slideShow {
-    background-color: black;
-    object-fit: cover;
-    border-radius: 10px;
+  background-color: black;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .aboutText {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
-    max-width: 600px;
-    margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-right: 30px;
 }
 
 .socialsCard {
-    color: white;
-    font-size: 24px;
-    padding-top: 240px;
-    text-align: center;
-    background-image: url('/mechesbackground.png');
-    background-size: cover;
-    height: 550px;
+  color: white;
+  font-size: 24px;
+  padding-top: 240px;
+  text-align: center;
+  background-image: url("/mechesbackground.png");
+  background-size: cover;
+  height: 550px;
 }
 
 .ordersCard {
-    text-align: center;
-    background-color: #720000;
-    height: 600px;
+  text-align: center;
+  background-color: #720000;
+  height: 600px;
 }
 
 .contactCard {
-    text-align: center;
-    background-color: #CC6E6E;
-    height: 600px;
+  text-align: center;
+  background-color: #cc6e6e;
+  height: 600px;
 }
 
 .footer {
-    background-color: #4F1E1E;
-    height: 50px;
+  background-color: #4f1e1e;
+  height: 50px;
 }
 
 .hoursBackground {
-    background-color: white;
+  background-color: white;
 }
 
 .hoursCard {
-    display: flex;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .donut {
-    filter: drop-shadow(20px 30px 15px rgba(0, 0, 0, 0.6));
+  filter: drop-shadow(20px 30px 15px rgba(0, 0, 0, 0.6));
+}
+
+.margin {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-inline: clamp(16px, 4vw, 48px);
 }
