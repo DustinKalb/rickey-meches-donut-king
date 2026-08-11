@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import NavBar from "../components/NavBar/NavBar.jsx";
 import HoursOfOperation from "../components/HoursOfOperation/HoursOfOperation.jsx";
+import AboutUsSection from "../components/AboutUsSection/AboutUsSection.jsx";
 import Image from "next/image";
 import { Pacifico } from "next/font/google";
 
@@ -31,26 +32,7 @@ export default function Home() {
       </div>
       <div className={styles.content}>
         <div className={styles.aboutBackground}>
-          <div className={styles.margin}>
-            <div className={styles.aboutCard}>
-              <div className={styles.aboutText}>
-                <div>About Us</div>
-                <div>
-                  My name is Dustin and I work at Meche's Donut King. I get
-                  there super early and make a ton of product then I flip donuts
-                  for like 12 whole hours.
-                </div>
-              </div>
-              <div className={styles.imageWrapper}>
-                <Image
-                  className={styles.slideShow}
-                  src="/rickster.jpg"
-                  fill
-                  quality={100}
-                />
-              </div>
-            </div>
-          </div>
+          <AboutUsSection />
         </div>
         <div className={styles.hoursBackground}>
           <div className={styles.socialsCard}>

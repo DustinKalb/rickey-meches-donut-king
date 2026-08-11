@@ -1,0 +1,71 @@
+.aboutBackground {
+  display: flex;
+  background-color: white;
+  height: 610px;
+  padding-top: 50px;
+}
+
+.aboutCard {
+  display: flex;
+  text-align: center;
+  height: 600px;
+  max-width: 1600px;
+  margin: 0 auto;
+  z-index: 2;
+  justify-content: center;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 600px;
+  height: 100%;
+  border-radius: 20px;
+  border: 20px solid white;
+  background-color: white;
+}
+
+.margin {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-inline: clamp(16px, 4vw, 48px);
+}
+
+.slideShow {
+  background-color: black;
+  object-fit: cover;
+  border-radius: 10px;
+  outline: 2px solid #e60000;
+  outline-offset: 4px;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  color: black;
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-right: 30px;
+  padding: 16px;
+}
+
+.divider {
+  width: 40px;
+  height: 4px;
+  background-color: #e60000;
+  margin: 8px 0 16px;
+  border-radius: 2px;
+}
+
+.h1 {
+  color: #e60000;
+  font-size: 24px;
+}
+
+.h2 {
+  font-size: 32px;
+}
