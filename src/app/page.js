@@ -4,6 +4,7 @@ import HoursOfOperation from "../components/HoursOfOperation/HoursOfOperation.js
 import AboutUsSection from "../components/AboutUsSection/AboutUsSection.jsx";
 import Image from "next/image";
 import { Pacifico } from "next/font/google";
+import BsMouse from "../components/BsMouse/BsMouse.jsx";
 
 const pacifico = Pacifico({
   subsets: ["latin"],
@@ -25,10 +26,19 @@ export default function Home() {
             quality={100}
           />
           <br />
-          <div className={`${styles.catchPhrase} ${pacifico.className}`}>
+          <Image
+            className={styles.sweeter}
+            src="/makingyourdaysweeter.png"
+            width={384}
+            height={108}
+          />
+
+          {/* <div className={`${styles.catchPhrase} ${pacifico.className}`}>
             Making Your Day a Little Sweeter
-          </div>
+          </div> */}
         </div>
+        <div className={styles.scrollDown}>Scroll Down</div>
+        <BsMouse />
       </div>
       <div className={styles.content}>
         <div className={styles.aboutBackground}>

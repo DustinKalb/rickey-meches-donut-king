@@ -12,7 +12,7 @@
 .background {
   display: flex;
   flex-direction: column;
-  min-height: 80vh;
+  min-height: 100vh;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
     url("/filledDonuts.jpg");
@@ -137,4 +137,14 @@
   max-width: 1400px;
   margin: 0 auto;
   padding-inline: clamp(16px, 4vw, 48px);
+}
+
+.scrollDown {
+  text-align: center;
+  color: white;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
+}
+
+.sweeter {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
 }
