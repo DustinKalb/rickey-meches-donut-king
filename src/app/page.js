@@ -5,6 +5,8 @@ import AboutUsSection from "../components/AboutUsSection/AboutUsSection.jsx";
 import Image from "next/image";
 import { Pacifico } from "next/font/google";
 import BsMouse from "../components/BsMouse/BsMouse.jsx";
+import { CiFacebook } from "react-icons/ci";
+import { CiInstagram } from "react-icons/ci";
 
 const pacifico = Pacifico({
   subsets: ["latin"],
@@ -28,9 +30,11 @@ export default function Home() {
           <br />
           <Image
             className={styles.sweeter}
-            src="/makingyourdaysweeter.png"
-            width={384}
-            height={108}
+            src="/makingyourdaysweeter2.png"
+            // width={384}
+            // height={108}
+            width={550}
+            height={60}
           />
 
           {/* <div className={`${styles.catchPhrase} ${pacifico.className}`}>
@@ -46,13 +50,13 @@ export default function Home() {
         </div>
         <div className={styles.hoursBackground}>
           <div className={styles.socialsCard}>
-            <div className={pacifico.className}>
-              Check out our social medias!
-            </div>
-            <div>O O</div>
+            <div>Check out our social medias!</div>
+            <CiFacebook className={styles.socialIcon} />
+            <CiInstagram className={styles.socialIcon} />
+            <div className={styles.test}>Test</div>
             <br />
             <br />
-            <div className={pacifico.className}>
+            <div>
               <div>"Do you have any hot donuts?"</div>
               <div>- Most Customers</div>
             </div>
