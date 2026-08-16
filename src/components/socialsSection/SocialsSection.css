@@ -1,0 +1,20 @@
+.socialsCard {
+  color: white;
+  font-size: 24px;
+  padding-top: 200px;
+  text-align: center;
+  background-image: url("/mechesbackground.png");
+  background-size: cover;
+  height: 550px;
+}
+
+.socialIcon {
+  font-size: 64px;
+  background-color: white;
+  border-radius: 100;
+  padding: 15px;
+  color: #e60000;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}

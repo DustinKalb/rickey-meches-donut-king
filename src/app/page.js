@@ -7,6 +7,7 @@ import { Pacifico } from "next/font/google";
 import BsMouse from "../components/BsMouse/BsMouse.jsx";
 import { CiFacebook } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
+import SocialsSection from "../components/socialsSection/SocialsSection.jsx";
 
 const pacifico = Pacifico({
   subsets: ["latin"],
@@ -45,22 +46,20 @@ export default function Home() {
         <BsMouse />
       </div>
       <div className={styles.content}>
+        {/* About Section */}
         <div className={styles.aboutBackground}>
           <AboutUsSection />
         </div>
+        {/* Social Section */}
+        <SocialsSection />
+        {/* <div className={styles.socialsCard}>
+          <div style={{ fontSize: "40px" }}>Check Us Out On Social Media!</div>
+          <CiFacebook className={styles.socialIcon} />
+          <CiInstagram className={styles.socialIcon} />
+          <div className={styles.test}>Test</div>
+        </div> */}
+        {/* Hours & Location Section */}
         <div className={styles.hoursBackground}>
-          <div className={styles.socialsCard}>
-            <div>Check out our social medias!</div>
-            <CiFacebook className={styles.socialIcon} />
-            <CiInstagram className={styles.socialIcon} />
-            <div className={styles.test}>Test</div>
-            <br />
-            <br />
-            <div>
-              <div>"Do you have any hot donuts?"</div>
-              <div>- Most Customers</div>
-            </div>
-          </div>
           <div className={styles.margin}>
             <div className={styles.hoursCard}>
               <div className={styles.hoursImageWrapper}>
