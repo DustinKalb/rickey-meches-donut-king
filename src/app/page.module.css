@@ -120,17 +120,19 @@
 }
 
 .hoursBackground {
+  height: 610px;
+  padding-top: 50px;
   background-color: white;
 }
 
-.hoursCard {
+/* .hoursCard {
   display: flex;
   margin: 0 auto;
   text-align: center;
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
+} */
 
 /* .donut {
   filter: drop-shadow(20px 30px 15px rgba(0, 0, 0, 0.6));

@@ -1,7 +1,7 @@
 .hoursOfOperation {
-  width: 700px;
+  width: 400px;
   display: grid;
-  grid-template-columns: 350px 350px;
+  grid-template-columns: 200px 200px;
   text-align: left;
 }
 
@@ -12,10 +12,10 @@
 .hoursCard {
   display: flex;
   margin: 0 auto;
-  text-align: center;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  height: 600px;
 }
 
 .margin {
@@ -23,4 +23,40 @@
   max-width: 1400px;
   margin: 0 auto;
   padding-inline: clamp(16px, 4vw, 48px);
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgreen;
+  height: 600px;
+  width: 600px;
+  padding: 20px;
+  z-index: 1;
+  border-radius: 20;
+}
+
+.divider {
+  width: 40px;
+  height: 4px;
+  background-color: #e60000;
+  margin: 8px 0 16px;
+  border-radius: 2px;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: stretch;
+}
+
+.hoursText {
+  width: 200px;
+}
+
+.storeHours {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 10;
 }

@@ -9,29 +9,38 @@ function HoursOfOperation() {
           <Image
             className="donut"
             src="/chocnglaze2.png"
-            width={700}
-            height={700}
+            width={600}
+            height={600}
             quality={100}
           />
         </div>
-        <div>
-          <div>Closed Opens tomorrow at 4:00am</div>
-          <div>Business Hours</div>
-          <div className="hoursOfOperation">
-            <div>Sunday</div>
-            <div>4:00am - 1:30pm</div>
-            <div>Monday</div>
-            <div>4:00am - 1:30pm</div>
-            <div>Tuesday</div>
-            <div>4:00am - 1:30pm</div>
-            <div>Wednesday</div>
-            <div>4:00am - 1:30pm</div>
-            <div>Thursday</div>
-            <div>4:00am - 1:30pm</div>
-            <div>Friday</div>
-            <div>4:00am - 1:30pm</div>
-            <div>Saturday</div>
-            <div>4:00am - 1:30pm</div>
+        <div className="hours">
+          <h1 className="h1">Hours & Location</h1>
+          <h2 className="h2">Made Daily, Just For You</h2>
+          <div className="divider" />
+          <div className="column">
+            <div className="hoursText">Lorem Ipsum</div>
+
+            <div className="storeHours">
+              <div>Closed Opens tomorrow at 4:00am</div>
+              <div>Business Hours</div>
+              <div className="hoursOfOperation">
+                <div>Sunday</div>
+                <div>4:00am - 1:00pm</div>
+                <div>Monday</div>
+                <div>4:00am - 1:00pm</div>
+                <div>Tuesday</div>
+                <div>4:00am - 1:00pm</div>
+                <div>Wednesday</div>
+                <div>4:00am - 1:00pm</div>
+                <div>Thursday</div>
+                <div>4:00am - 1:00pm</div>
+                <div>Friday</div>
+                <div>4:00am - 1:00pm</div>
+                <div>Saturday</div>
+                <div>4:00am - 1:00pm</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

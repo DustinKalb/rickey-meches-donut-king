@@ -8,7 +8,7 @@ function AboutUsSection() {
         <div className="aboutText">
           <h1 className="h1">About Us</h1>
           <h2 className="h2">Lorem Ipsum</h2>
-          <div className="divider"></div>
+          <div className="divider" />
           <div>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
