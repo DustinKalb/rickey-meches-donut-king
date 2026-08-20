@@ -8,6 +8,7 @@ import BsMouse from "../components/ui/BsMouse/BsMouse.jsx";
 import { CiFacebook } from "react-icons/ci";
 import { CiInstagram } from "react-icons/ci";
 import SocialsSection from "../components/sections/SocialsSection/SocialsSection.jsx";
+import ContactSection from "../components/sections/ContactSection/ContactSection.jsx";
 
 const pacifico = Pacifico({
   subsets: ["latin"],
@@ -45,6 +46,8 @@ export default function Home() {
         <div className={styles.scrollDown}>Scroll Down</div>
         <BsMouse />
       </div>
+
+      {/* Content */}
       <div className={styles.content}>
         {/* About Section */}
         <div className={styles.aboutBackground}>
@@ -59,6 +62,7 @@ export default function Home() {
           <HoursOfOperation />
         </div>
 
+        {/* Google Map */}
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3448.3745748530764!2d-92.06898509999999!3d30.1978549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86249e82fef207ad%3A0x6c08ce042721b183!2sRickey%20Meche&#39;s%20Donut%20King!5e0!3m2!1sen!2sus!4v1777668597842!5m2!1sen!2sus"
           width="100%"
@@ -66,12 +70,13 @@ export default function Home() {
           style={{ border: 0 }}
           loading="lazy"
         />
-        <div className={styles.ordersBackground}>
-          <div className={styles.ordersCard}>ORDER</div>
-        </div>
+
+        {/* Order & Contact Section */}
         <div className={styles.contactBackground}>
           <div className={styles.contactCard}>CONTACT</div>
         </div>
+
+        {/* Footer Section */}
         <div className={styles.footer}>FOOTER</div>
       </div>
     </main>
