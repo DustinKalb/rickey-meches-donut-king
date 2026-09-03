@@ -1,0 +1,23 @@
+.contactCard {
+  color: black;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  height: 500px;
+  width: 1200px;
+  border-radius: 20px;
+}
+
+.contactBackground {
+  color: white;
+  text-align: center;
+  background-color: #720000;
+  height: 700px;
+}
+
+.callUs {
+  border: 2px solid red;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+}

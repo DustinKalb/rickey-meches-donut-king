@@ -108,15 +108,15 @@
   height: 600px;
 }
 
-.contactCard {
+/* .contactCard {
   text-align: center;
   background-color: #cc6e6e;
   height: 600px;
-}
+} */
 
 .footer {
-  background-color: #4f1e1e;
-  height: 50px;
+  background-color: #1a1a1a;
+  height: 25px;
 }
 
 .hoursBackground {
