@@ -16,8 +16,23 @@
 }
 
 .callUs {
-  border: 2px solid red;
+  color: white;
+  background-color: #bf0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border: 2px solid #bf0000;
   width: 200px;
   margin: 0 auto;
   border-radius: 5px;
+  height: 50px;
+}
+
+.contactUs {
+  font-size: 24px;
+}
+
+.giveUsACall {
+  font-size: 32px;
 }

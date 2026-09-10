@@ -35,7 +35,7 @@
   background-color: black;
   object-fit: cover;
   border-radius: 10px;
-  outline: 2px solid #e60000;
+  outline: 2px solid #bf0000;
   outline-offset: 4px;
 }
 
@@ -56,13 +56,13 @@
 .divider {
   width: 40px;
   height: 4px;
-  background-color: #e60000;
+  background-color: #bf0000;
   margin: 8px 0 16px;
   border-radius: 2px;
 }
 
 .h1 {
-  color: #e60000;
+  color: #bf0000;
   font-size: 24px;
 }
 
