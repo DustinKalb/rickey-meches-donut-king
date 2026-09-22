@@ -35,4 +35,19 @@
 
 .giveUsACall {
   font-size: 32px;
+  color: #bf0000;
+  font-weight: 700;
+}
+
+.divider2 {
+  width: 200px;
+  height: 4px;
+  background-color: #bf0000;
+  margin: 8px auto 16px;
+  border-radius: 2px;
+}
+
+.number {
+  color: #bf0000;
+  font-weight: 700;
 }
