@@ -43,11 +43,22 @@
   width: 200px;
   height: 4px;
   background-color: #bf0000;
-  margin: 8px auto 16px;
+  margin: 16px auto 16px;
   border-radius: 2px;
 }
 
 .number {
   color: #bf0000;
   font-weight: 700;
+}
+
+.phoneIcon {
+  font-size: 64px;
+  background-color: pink;
+  border-radius: 100;
+  padding: 15px;
+  color: #bf0000;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
 }

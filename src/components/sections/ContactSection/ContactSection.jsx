@@ -11,7 +11,7 @@ function ContactSection() {
           <div>Questions about orders, hours, or anything else?</div>
         </div>
         <div className="contactCard">
-          <CiPhone className="socialIcon" />
+          <CiPhone className="phoneIcon" />
           <h1 className="giveUsACall">Give Us A Call</h1>
           <div>All orders are handled over the phone.</div>
           <div className="divider2" />
