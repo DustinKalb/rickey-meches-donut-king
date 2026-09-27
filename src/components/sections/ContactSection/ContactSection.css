@@ -1,18 +1,34 @@
-.contactCard {
-  color: black;
-  margin: 0 auto;
-  text-align: center;
-  background-color: white;
-  height: 500px;
-  width: 1200px;
-  border-radius: 20px;
-}
-
 .contactBackground {
+  min-height: 700px;
+  padding: 48px 24px 64px;
   color: white;
   text-align: center;
   background-color: #720000;
-  height: 700px;
+}
+
+.contactTitle {
+  margin-bottom: 32px;
+}
+
+.contactCard {
+  width: min(100%, 1200px);
+  min-height: 500px;
+  box-sizing: border-box;
+  padding: 48px 24px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.contactCard h1,
+.contactCard p {
+  margin: 0;
 }
 
 .callUs {
@@ -34,14 +50,14 @@
 }
 
 .giveUsACall {
-  font-size: 32px;
   color: #bf0000;
   font-weight: 700;
+  font-size: 32px;
 }
 
 .divider2 {
-  width: 200px;
-  height: 4px;
+  width: 175px;
+  height: 2px;
   background-color: #bf0000;
   margin: 16px auto 16px;
   border-radius: 2px;
@@ -60,5 +76,4 @@
   color: #bf0000;
   height: 100px;
   width: 100px;
-  margin: 10px;
 }

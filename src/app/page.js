@@ -18,8 +18,8 @@ const pacifico = Pacifico({
 export default function Home() {
   return (
     <main>
+      <NavBar />
       <div className={styles.background}>
-        <NavBar />
         <div className={styles.titleBox}>
           {/*<h1 className={styles.storeName}>Rickey Meche's Donut King</h1>*/}
           <Image

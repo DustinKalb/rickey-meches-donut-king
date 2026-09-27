@@ -1,3 +1,24 @@
-.navbar-transparent .nav-link, .navbar-transparent .navbar-text {
-    color: white !important;
+.navbar-transparent {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  margin-bottom: -56px;
+  background-color: transparent !important;
+  transition: background-color 200ms ease;
+}
+
+.navbar-transparent .nav-link,
+.navbar-transparent .navbar-text {
+  color: white !important;
+}
+
+.navbar-transparent.navbar-scrolled {
+  background-color: white !important;
+}
+
+.navbar-transparent.navbar-scrolled .nav-link,
+.navbar-transparent.navbar-scrolled .navbar-text {
+  color: black !important;
 }
