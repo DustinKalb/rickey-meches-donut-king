@@ -50,9 +50,7 @@ export default function Home() {
       {/* Content */}
       <div className={styles.content}>
         {/* About Section */}
-        <div className={styles.aboutBackground}>
-          <AboutUsSection />
-        </div>
+        <AboutUsSection />
 
         {/* Social Section */}
         <SocialsSection />
