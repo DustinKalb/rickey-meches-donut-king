@@ -20,7 +20,7 @@
   width: 800px;
   height: 100%;
   border-radius: 30px;
-  border: 20px solid white;
+  /* border: 20px solid white; */
   background-color: white;
 }
 
@@ -35,8 +35,8 @@
   background-color: black;
   object-fit: cover;
   border-radius: 15px;
-  outline: 2px solid #bf0000;
-  outline-offset: 20px;
+  /* outline: 2px solid #bf0000; */
+  /* outline-offset: 20px; */
 }
 
 .aboutText {
