@@ -44,22 +44,6 @@
   margin: 0 auto;
 }
 
-.aboutBackground {
-  display: flex;
-  background-color: white;
-  height: 610px;
-  padding-top: 50px;
-}
-
-.aboutCard {
-  display: flex;
-  text-align: center;
-  height: 600px;
-  max-width: 1600px;
-  margin: 0 auto;
-  z-index: 2;
-}
-
 .imageWrapper {
   position: relative;
   width: 600px;
@@ -72,20 +56,6 @@
   background-color: black;
   object-fit: cover;
   border-radius: 10px;
-}
-
-.aboutText {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  text-align: center;
-  background-color: white;
-  border-radius: 10px;
-  max-width: 600px;
-  margin-right: 30px;
 }
 
 /* .socialsCard {

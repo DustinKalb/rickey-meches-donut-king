@@ -2,12 +2,19 @@
   border-radius: 15px;
   overflow: hidden;
   height: 500px;
+  flex: 0 0 700px;
 }
 
 .aboutCarousel .carousel-caption {
   background: rgb(0 0 0 / 55%);
   border-radius: 8px;
   padding: 12px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  max-width: 60%;
 }
 
 .aboutCarousel .carousel-control-prev-icon,

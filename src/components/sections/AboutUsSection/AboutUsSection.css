@@ -9,7 +9,6 @@
   display: flex;
   text-align: center;
   height: 600px;
-  max-width: 1600px;
   margin: 0 auto;
   justify-content: center;
 }
@@ -47,7 +46,7 @@
   text-align: left;
   background-color: white;
   border-radius: 10px;
-  min-width: 600px;
+  min-width: 800px;
   margin-right: 30px;
   padding: 16px;
   height: 500px;
