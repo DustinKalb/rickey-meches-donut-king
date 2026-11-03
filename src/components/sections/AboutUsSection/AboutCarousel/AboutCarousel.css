@@ -1,12 +1,16 @@
 .aboutCarousel {
   border-radius: 15px;
-  overflow: hidden;
   height: 500px;
   flex: 0 0 700px;
 }
 
+.aboutCarousel .carousel-inner {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
 .aboutCarousel .carousel-caption {
-  background: rgb(0 0 0 / 55%);
+  /* background: rgb(0 0 0 / 55%); */
   border-radius: 8px;
   padding: 12px;
   left: 0;
@@ -27,4 +31,12 @@
 .aboutCarousel .carousel-caption h3,
 .aboutCarousel .carousel-caption p {
   text-shadow: 0 1px 3px rgb(0 0 0 / 80%);
+}
+
+.aboutCarousel .carousel-indicators button.active {
+  background-color: red;
+}
+
+.aboutCarousel .carousel-indicators {
+  bottom: -40px;
 }
