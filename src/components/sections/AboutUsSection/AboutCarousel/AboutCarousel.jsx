@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function AboutCarousel() {
   return (
-    <Carousel fade className="aboutCarousel">
+    <Carousel slide className="aboutCarousel">
       <Carousel.Item>
         <Image
           src="/rickster.jpg"

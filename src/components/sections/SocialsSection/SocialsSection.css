@@ -17,4 +17,12 @@
   height: 100px;
   width: 100px;
   margin: 10px;
+  transition:
+    background-color 0.3s linear,
+    color 0.3s linear;
+}
+
+.socialIcon:hover {
+  background-color: red;
+  color: white;
 }
