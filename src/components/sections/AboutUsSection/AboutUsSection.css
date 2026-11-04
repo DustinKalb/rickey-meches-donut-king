@@ -1,7 +1,7 @@
 .aboutBackground {
   display: flex;
-  background-color: white;
-  height: 610px;
+  background-color: #faf8f5;
+  height: 750px;
   padding-top: 50px;
 }
 
@@ -44,12 +44,12 @@
   justify-content: center;
   color: black;
   text-align: left;
-  background-color: white;
+  background-color: #faf8f5;
   border-radius: 10px;
-  min-width: 800px;
+  min-width: 760px;
   margin-right: 30px;
   padding: 16px;
-  height: 500px;
+  height: 600px;
 }
 
 .divider {
@@ -62,9 +62,24 @@
 
 .h1 {
   color: #bf0000;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .h2 {
   font-size: 32px;
+}
+
+.orderButton {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bf0000;
+  width: 120px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.orderText {
+  margin-right: 9px;
 }

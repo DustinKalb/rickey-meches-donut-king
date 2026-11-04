@@ -1,7 +1,7 @@
 .aboutCarousel {
   border-radius: 15px;
-  height: 500px;
-  flex: 0 0 700px;
+  height: 650px;
+  flex: 0 0 760px;
 }
 
 .aboutCarousel .carousel-inner {
@@ -23,9 +23,17 @@
 
 .aboutCarousel .carousel-control-prev-icon,
 .aboutCarousel .carousel-control-next-icon {
-  background-color: rgb(0 0 0 / 45%);
   border-radius: 50%;
   background-size: 55%;
+  transition:
+    background-color 0.2s linear,
+    transform 0.2s linear;
+}
+
+.aboutCarousel .carousel-control-prev:hover .carousel-control-prev-icon,
+.aboutCarousel .carousel-control-next:hover .carousel-control-next-icon {
+  background-color: rgb(0 0 0 / 50%);
+  transform: scale(1.1);
 }
 
 .aboutCarousel .carousel-caption h3,
@@ -33,10 +41,27 @@
   text-shadow: 0 1px 3px rgb(0 0 0 / 80%);
 }
 
-.aboutCarousel .carousel-indicators button.active {
-  background-color: red;
+.aboutCarousel .carousel-indicators {
+  bottom: -45px;
+  border-radius: 20px;
+  gap: 5px;
 }
 
-.aboutCarousel .carousel-indicators {
-  bottom: -40px;
+.aboutCarousel .carousel-indicators button.active {
+  background-color: #bf0000;
+  border-radius: 20px;
+  width: 35px;
+}
+
+.aboutCarousel .carousel-indicators button {
+  flex: 0 0 auto;
+  background-color: grey;
+  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+  border: none;
+  padding: 0;
+  transition:
+    width 0.3s linear,
+    background-color 0.5s ease;
 }

@@ -1,6 +1,7 @@
 import "./AboutUsSection.css";
 import Image from "next/image";
 import AboutCarousel from "./AboutCarousel/AboutCarousel.jsx";
+import { PiShoppingCartSimpleFill } from "react-icons/pi";
 
 function AboutUsSection() {
   return (
@@ -8,7 +9,8 @@ function AboutUsSection() {
       <div className="margin">
         <div className="aboutCard">
           <div className="aboutText">
-            <h1 className="h1">About Us</h1>
+            <h1 className="h1">ABOUT US</h1>
+            <br />
             <h2 className="h2">Lorem Ipsum</h2>
             <div className="divider" />
             <div>
@@ -17,6 +19,11 @@ function AboutUsSection() {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
               in."
+            </div>
+            <br />
+            <div className="orderButton">
+              <div className="orderText">ORDER</div>
+              <PiShoppingCartSimpleFill />
             </div>
           </div>
           {/* <Image

@@ -12,8 +12,9 @@ function AboutCarousel() {
           src="/rickster.jpg"
           alt="rickey"
           text="First slide"
-          height="500"
-          width="700"
+          height="650"
+          width="760"
+          quality="100"
         />
         <Carousel.Caption />
       </Carousel.Item>
@@ -22,8 +23,8 @@ function AboutCarousel() {
           src="/chocoSprinkle.png"
           alt="choco"
           text="Second slide"
-          height="500"
-          width="700"
+          height="650"
+          width="760"
         />
         <Carousel.Caption />
       </Carousel.Item>
@@ -32,8 +33,8 @@ function AboutCarousel() {
           src="/donutBox.png"
           alt="box"
           text="Third slide"
-          height="500"
-          width="700"
+          height="650"
+          width="760"
         />
         <Carousel.Caption />
       </Carousel.Item>

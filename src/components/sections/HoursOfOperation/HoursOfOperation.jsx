@@ -16,6 +16,7 @@ function HoursOfOperation() {
         </div>
         <div className="hours">
           <h1 className="h1">Hours & Location</h1>
+          <br />
           <h2 className="h2">Made Daily, Just For You</h2>
           <div className="divider" />
           <div className="column">
