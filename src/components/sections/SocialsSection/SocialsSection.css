@@ -3,8 +3,10 @@
   font-size: 24px;
   padding-top: 200px;
   text-align: center;
-  background-image: url("/mechesbackground.png");
+  background-image: url("/mechesbackground2.png");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 550px;
 }
 

@@ -24,9 +24,9 @@ export default function Home() {
           {/*<h1 className={styles.storeName}>Rickey Meche's Donut King</h1>*/}
           <Image
             className={styles.storeName}
-            src="/logofull.png"
-            height={243.77}
-            width={550}
+            src="/logowordsaccent.png"
+            height={288} //243.77
+            width={650} //550
             quality={100}
           />
           <br />
