@@ -1,5 +1,6 @@
 import "./HoursOfOperation.css";
 import Image from "next/image";
+import StoreHours from "./StoreHours/StoreHours.jsx";
 
 function HoursOfOperation() {
   return (
@@ -24,7 +25,8 @@ function HoursOfOperation() {
               Lorem Ipsum blah blah blah blah blah blah blah blah blah blah blah
             </div>
             <div className="storeHoursBorder">
-              <div className="storeHours">
+              <StoreHours />
+              {/* <div className="storeHours">
                 <div>Closed Opens tomorrow at 4:00am</div>
                 <div>Business Hours</div>
                 <div className="hoursOfOperation">
@@ -45,7 +47,7 @@ function HoursOfOperation() {
                 </div>
                 <br />
                 <div>*Times are subject to change.</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
